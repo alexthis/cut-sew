@@ -1,0 +1,318 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #a3b3ab;
+}
+h2{
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+h3{
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+.titel-catégorie{
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 4vw;
+    transition: ease-in 0.25s;
+    color: white;
+    text-decoration: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: dashed 0px #db5133;
+    border-radius: 2vw;
+}
+.titel-catégorie:hover {
+    font-size: 4.3vw;
+    color: #db5133;
+    text-decoration: none;
+    border: dashed 2px #db5133;
+    border-radius: 2vw;
+    
+}
+
+.nav-style{
+    background-color: #a3b3ab;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.25rem dashed #db5133;
+}
+.logo-nav{
+    width: 22%;
+    padding: 25px;
+    padding-bottom: 35px;
+}
+.btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-nav-style{
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    transition: 0.5s;
+}
+.btn-nav-style:hover {
+    color: #db5133;
+}
+
+.full-background-création {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 45vh;
+    width: 100%;
+
+    color: white;
+
+    /* Background */
+    background: url('title-img/pexels-michael-burrows-7147968.jpg') center center / cover no-repeat;
+}
+
+.full-background-couture {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 45vh;
+    width: 100%;
+
+    color: white;
+
+    /* Background */
+    background: url('title-img/pexels-wallace-chuck-2973399.jpg') center center / cover no-repeat;
+}
+
+.full-background-crochet {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 45vh;
+    width: 100%;
+
+    color: white;
+
+    /* Background */
+    background: url('title-img/pexels-surene-palvie-2070676.jpg') center center / cover no-repeat;
+}
+
+.full-background-vetement {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 45vh;
+    width: 100%;
+
+    color: white;
+
+    /* Background */
+    background: url('title-img/pexels-ksenia-chernaya-3965557.jpg') center center / cover no-repeat;
+}
+
+.full-background-contact {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 45vh;
+    width: 100%;
+
+    color: white;
+
+    /* Background */
+    background: url('title-img/pexels-pixabay-47319.jpg') center center / cover no-repeat;
+}
+
+.presentation{
+    background-color: #a3b3ab;
+    border-top: dashed 3px #db5133;
+    border-bottom: dashed 3px #db5133;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.img-avatar{
+    height: 12vw;
+}
+
+.all-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5vw;
+    margin-right: 3vw;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 20px;
+}
+
+.groupe-txt-avatar{
+    display: flex;
+    flex-direction: column;
+    border-left: solid 2px #7b8580;
+    padding-left: 1vw;
+    margin-right: 10px;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.txt-avatar-space{
+    padding-bottom: 15px;
+}
+
+footer{
+    overflow: hidden;
+    background-color: #7b8580;
+    border-top: solid 2px #db5133;
+    font: 1.2rem "Fira Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20PX;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.link-footer{
+    color: black;
+    font: "Fira Sans", sans-serif;
+    text-decoration: none;
+    margin-bottom: 1vw;
+    border: solid 1px black;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 5px;
+    margin: 15px;
+    transition: ease-in 0.3s;
+}
+
+.link-footer:hover{
+    border: solid 1px rgb(66, 66, 66);
+    color: white;
+    background-color: #555f5b;
+    border: solid 1px white;
+}
+
+.link-groupe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ////////// Le Responsive ////////// */
+
+@media screen and (max-width: 1520px) {
+    .all-avatar{
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width: 1220px) {
+    .all-avatar{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 887px) {
+    .titel-catégorie{
+        font-size: 6vw;
+    }
+    footer{
+        font-size: 15px;
+    }
+    .groupe-txt-avatar{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .btn-nav-style{
+        font-size: 18px;
+    }
+    .all-avatar{
+        font-size: 12px;
+    } 
+}
+
+@media screen and (max-width: 540px) {
+    .btn-nav-style{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .btn-nav-style{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .presentation{
+        flex-direction: column;
+    }
+    .groupe-txt-avatar{
+        margin-left: 10px;
+        border-left: solid 2px #a3b3ab;
+        border-top: solid 2px #7b8580;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .all-avatar{
+        margin-top: 15px;
+    }    
+}
+
+@media screen and (max-width: 359px) {
+    .full-background-création{
+        width: 105%;
+    }
+    .full-background-couture{
+        width: 105%;
+    }
+    .full-background-crochet{
+        width: 105%;
+    }
+    .full-background-vetement{
+        width: 105%;
+    }
+    .full-background-contacte{
+        width: 105%;
+    }
+}
